@@ -8,41 +8,42 @@ body {
 h1 {
     color: #46484c;
     text-align: center;
+    font-size: 2.5em;
 }
 
 p {
     color: #3a3838cc;
     font-family: verdana;
-    font-size: 10px;
+    font-size: 1em;
     text-align: center;
 }
 
 form {
-    text-align: center;
-    /*Out border*/
-    /*margin:2% 2% 0% 2%;*/
-
-    /*In Border*/
-    padding: 0%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    /*
     background-color: red;
     border: 5px solid green;
+    */
 }
 
 #txtBoxEmail{
-    font-family: verdana;
-    font-size: 9px;
-    box-sizing: content-box;
-
+    font-family: verdana;   
+    font-size: 1em;
+    text-align: center;
+    border-radius:5px 0px 0px 5px;
     /*How to resize dynamically*/
-    height: 25px;
+    height: 42px;
 }
 
 button {
     color: #fff;
     background-color: #0b6268;
     text-align: center;
-    height: 30px;
+    font-size: 1em;
+    height: auto;
+    width: 8%;
+    border: none;
     border-radius:0px 5px 5px 0px;
 }
 
