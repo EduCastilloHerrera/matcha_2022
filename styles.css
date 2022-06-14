@@ -1,5 +1,8 @@
 body {
     background-color: #fffbf7;
+
+    /*Centra todos los elementos de mi documento*/
+    text-align: center;
 }
 
 h1 {
@@ -8,12 +11,59 @@ h1 {
 }
 
 p {
-    color: #8b8b8bcc;
+    color: #3a3838cc;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    /*Out border*/
+    /*margin:2% 2% 0% 2%;*/
+
+    /*In Border*/
+    padding: 0%;
+    margin: auto;
+    background-color: red;
+    border: 5px solid green;
+}
+
+#txtBoxEmail{
+    font-family: verdana;
+    font-size: 9px;
+    box-sizing: content-box;
+
+    /*How to resize dynamically*/
+    height: 25px;
 }
 
 button {
     color: #fff;
-    background-color: #025157;
+    background-color: #0b6268;
+    text-align: center;
+    height: 30px;
+    border-radius:0px 5px 5px 0px;
+}
+
+
+/*Images*/
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*
+    background-color: rebeccapurple;
+    */
+}
+
+#terra{
+    width:20%;
+    height: auto;
+}
+
+#group_image{
+    width: 75%;
+    height: auto;
 }
